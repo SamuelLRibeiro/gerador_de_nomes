@@ -23,5 +23,4 @@ Gera nomes masculinos e femininos combinando **primeiros nomes e sobrenomes** de
 
 ---
 
-## Exemplo de saída
 
