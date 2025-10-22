@@ -1,43 +1,34 @@
 # Gerador de Nomes de NPC
 
-Um **gerador de nomes para NPCs (Personagens Não Jogáveis)** voltado para **mestres de RPG de mesa** que desejam criar personagens rapidamente, com nomes únicos e memoráveis.  
-Feito em **Python**, este projeto combina nomes masculinos e femininos com sobrenomes aleatórios, e está sendo expandido semanalmente com novas funcionalidades.
+Um gerador de nomes de NPCs para RPG de mesa, criado para facilitar a vida de Dungeon Masters.  
+Atualmente, o programa permite gerar nomes masculinos e femininos de forma aleatória, combinando primeiros nomes e sobrenomes.  
+É ideal para mestres que precisam de nomes rápidos durante suas campanhas e querem uma ferramenta simples, mas em constante evolução.
 
 ---
 
 ## Funcionalidades Atuais
 
-- Geração de nomes aleatórios  
-- Opção de gênero: **masculino** ou **feminino**  
-- Combinação de **primeiro nome + sobrenome**  
-- Execução contínua até o usuário decidir parar  
-- Validação de entradas do usuário (garante digitação correta)
+- Geração de nomes masculinos e femininos.
+- Combinação aleatória de primeiro nome e sobrenome.
+- Interface interativa via terminal.
+- Controle de repetição: o usuário pode continuar gerando nomes até decidir parar.
+- Validação de entrada: o programa aceita apenas respostas válidas nas escolhas.
 
 ---
 
 ## Funcionalidades em Desenvolvimento
 
-🟡 **Histórico de nomes gerados**  
-> Armazena os nomes criados e evita repetições na mesma sessão.
-
-🟡 **Sistema de persistência (arquivo TXT/CSV)**  
-> Permite salvar e carregar nomes já utilizados entre execuções.
-
-🟡 **Consulta de nomes usados**  
-> O usuário poderá verificar se um nome já foi gerado antes.
-
-🟡 **Interface amigável no terminal (CLI)**  
-> Menu interativo com atalhos para gerar, buscar e listar nomes.
-
-🟡 **Integração futura com planilhas e apps de RPG**  
-> Facilitar uso em fichas, campanhas e geradores automáticos de personagens.
+- **Armazenamento em arquivo JSON:** todos os NPCs gerados serão salvos para referência futura.  
+- **Verificação de nomes duplicados:** o programa impedirá a criação de nomes já existentes.  
+- **Campos adicionais para NPCs:** país de origem, ocupação, classe e outros atributos.  
+- **Exportação dos dados gerados:** opção de exportar nomes para formatos como JSON e CSV.  
+- **Integração com interface web:** visualização e busca dos NPCs gerados em HTML/CSS/JS.  
+- **Melhorias de experiência:** interface mais amigável e novas opções de personalização.  
 
 ---
 
 ## Como Usar
 
-1. Certifique-se de ter o **Python 3.10+** instalado.  
-2. Clone este repositório ou baixe o arquivo `script.py`.  
-3. Execute no terminal:
+1. Execute o arquivo principal com Python:
    ```bash
-   python script.py
+   python gerador_nomes.py
